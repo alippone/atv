@@ -8,8 +8,31 @@ h1{
 p{
 	color:blue;
 	text-decoration:underline;
+	font-size:20px;
 }
 img{
 	max-width:100%;
 	
+}
+
+.sisalto{
+	overflow:auto;
+	
+	
+}
+.vasen{
+	float:left;
+	width:50%;
+	
+	
+}
+.oikea{
+	float:left;
+	width:50%;
+}
+
+@media only screen and (max-width:865px){
+	.vasen, .oikea{
+		width:100%;
+	}
 }
